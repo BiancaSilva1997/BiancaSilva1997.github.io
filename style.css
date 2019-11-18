@@ -1,0 +1,257 @@
+html {
+    scroll-behavior: smooth;
+}
+body
+{   
+    scroll-behavior: smooth;
+    text-align: left;
+    
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: #f6f6f6;
+}
+
+/* Header */
+#header .row{
+    height: 20em;
+    display: flex;
+    align-items: center
+}
+
+#logo{
+    text-align: center;
+}
+#header h1{
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 4em;
+    color: #626b70;
+}
+#header p{
+    font-size: 0.6em;
+    margin-top:-5%;
+    color: #626b70;
+}
+nav{
+    margin: auto;
+    border-top: #626b70 solid 1px;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: flex;
+    background-color:#f6f6f6;
+    z-index: 99999;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+nav a{
+    color:#626b70;
+  
+}
+nav li.active{
+    color:#6c777d;
+    font-weight:600;
+}
+nav a:hover{
+    color:#6c777d;
+}
+.navbar li{
+    word-spacing: 50px;
+}
+
+
+
+
+
+/* About */
+#about{
+    padding-top: 8%;
+
+}
+#about1 .col{
+    width:100%;
+    margin:0.3em;
+    font-size:20px;
+}
+#about2 .col{
+    width:100%;
+    margin-top:0.3em;
+    font-size:20px;
+}
+#imagem-a1{
+    
+    background-image:url("http://localhost/wordpress/wp-content/uploads/2019/11/Sem-Título.png");
+    width:100%;
+    background-repeat:no-repeat;
+    background-size:cover;}
+#texto-a1{
+    font-family: 'Mrs Saint Delafield', cursive;
+    background-color: #ebd8ca; 
+    padding-top:1em;
+    color:#626b70;
+}
+#texto-a1 h1{
+    text-align: center;
+    font-size:60px;
+}
+#texto-a2{
+    text-align: center;
+    padding-top:1em;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size:40px;
+    background-color: #ebd8ca; 
+    color:#626b70; 
+    margin-right:0.6em;
+}
+
+#imagem-a2{
+    background-image:url("http://localhost/wordpress/wp-content/uploads/2019/11/1.jpg");
+    width:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+#imagem-a3{
+    background-image:url("http://localhost/wordpress/wp-content/uploads/2019/11/2.jpg");
+    width:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#texto-a h1{
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 3em;
+    color: #626b70;
+}
+/*Skills*/
+#skills{
+    margin:auto;
+    padding-top: 5%;
+    margin-top: 10%;
+    font-size:17px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ebd8ca;
+    width: 100%;
+}
+#skills h1{
+    font-size:60px ;
+    text-align: center;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    font-family: 'Mrs Saint Delafield', cursive;
+    color:#626b70; 
+}
+#skills li {
+    list-style: none;
+   margin-left: 0;
+   padding-left: 1em;
+   text-indent: -1em;
+   color:#626b70;
+   padding-bottom:1em;
+  }
+#skills li::before {
+    content:"\2764";
+    color:white;
+    padding-right: 5%;
+  }
+#row-s{
+    padding-bottom:2em;
+}
+
+/*Portfolio*/
+#portfolio{
+    margin:auto;
+    padding-top: 5%;
+    margin-top: 3%;
+    font-size:17px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+#portfolio h1{
+    font-size:60px ;
+    text-align: center;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    font-family: 'Mrs Saint Delafield', cursive;
+    color:#626b70; 
+}
+  
+  #imagens-p {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  #imagens-p img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  #imagens-p .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: #ffffff2f;
+    font-size: 120px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #imagens-p .btn:hover {
+    background-color: transparent;
+    color: #ebd8ca;
+  }
+ 
+
+/*Contacts*/
+
+#contacts{
+  color:black;
+  margin:auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 10%;
+  font-size:20px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #6c777d;
+  width: 100%;
+  text-align: center;
+}
+#contacts h1{
+  font-size:60px ;
+  text-align: center;
+  padding-top:0.5em;
+  padding-bottom:0.5em;
+  font-family: 'Mrs Saint Delafield', cursive;
+  color:#ebd8ca; 
+}
+#btn-c{
+  background-color:#ebd8ca ;
+}
+#btn-c:hover{
+  background-color:#f6f6f6 ;
+}
+
+/* Footer*/
+#ttr_footer
+{   
+    color:black;
+    padding-top:2%;
+    padding-bottom:0.5%;
+    width:100%;
+    border-top: 1px #a2a2a2 solid;
+    text-align: center;
+    background-color: #6c777d;
+}
+
+
+
